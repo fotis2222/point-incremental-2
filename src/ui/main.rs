@@ -10,7 +10,7 @@ use ratatui::{
 
 pub fn render(app: &App, frame: &mut Frame) {
     let area = frame.area();
-    let title = Line::from(" Point Incremental ".bold());
+    let title = Line::from(" Point Incremental 2 ".bold());
     let instructions = Line::from(vec![
         " Get Points ".into(),
         "<Enter>".blue().bold(),
